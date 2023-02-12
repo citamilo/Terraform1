@@ -6,11 +6,20 @@
 trigger:
 - main
 
-pool:
-  vmImage: 'ubuntu-latest'
+parameters:
+  - name: provisionType
+    type: string
+    default: Apply
+    values:
+      - Apply
+      - Destroy
+variables:
+  - group: mygroup
 
 stages:
 - stage: A
   jobs:
   - job: A1
-  
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps: 
