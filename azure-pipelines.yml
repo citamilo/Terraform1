@@ -33,6 +33,27 @@ steps:
           terraform --version
 
 
+  - bash: |
+          set -eux  # fail on error
+          az login --service-principal -u $ARM_CLIENT_ID -p $ARM_CLIENT_SECRET --tenant $ARM_TENANT_ID
+          subscriptionId=$(az account show --query id -o tsv)
+          terraform init \
+            -backend-config=storage_account_name=$(TerraformBackendStorageAccount) \
+            -backend-config=container_name=$(TerraformBackendStorageContainer) \
+            -backend-config=key=dev.tfstate \
+            -backend-config=resource_group_name=$(TerraformBackendResourceGroup) \
+            -backend-config=subscription_id="$ARM_SUBSCRIPTION_ID" \
+            -backend-config=tenant_id="$ARM_TENANT_ID" \
+            -backend-config=client_id="$ARM_CLIENT_ID" \
+            -backend-config=client_secret="$ARM_CLIENT_SECRET" 
+          displayName: 'Terraform Init'
+          workingDirectory: $(System.DefaultWorkingDirectory)/TF
+          env:
+            ARM_CLIENT_ID: $(servicePrincipalId)
+            ARM_CLIENT_SECRET: $(servicePrincipalKey)
+            ARM_TENANT_ID: $(tenantId)
+            ARM_SUBSCRIPTION_ID: $(subscriptionId)
+
 
 
 
