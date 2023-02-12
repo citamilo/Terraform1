@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+  vmImage: linux-latest
 
 
 parameters:
@@ -20,8 +20,8 @@ parameters:
 variables:
   - group: mygroup
 
-
-- task: Bash@3
+steps:
+  - task: Bash@3
     displayName: Install Terraform
     inputs:
       targetType: 'inline'
@@ -36,7 +36,4 @@ variables:
 
 
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+
