@@ -13,4 +13,7 @@ stages:
   - stage: A
     jobs:
       - job: primero
+        steps:
+          - script: echo "hola mundo"
+
       
