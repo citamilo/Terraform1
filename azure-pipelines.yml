@@ -11,3 +11,6 @@ pool:
 
 stages:
   - stage: A
+    jobs:
+      - job: primero
+      
