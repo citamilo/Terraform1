@@ -19,7 +19,7 @@ stages:
               targetType: 'inline'
               script: |
                 # Write your PowerShell commands here.
-                curl -L https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_amd64.zip
+                Invoke-WebRequest -Uri "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_amd64.zip" -OutFile "C:\"
                 Write-Host "Hello World"
 
       
