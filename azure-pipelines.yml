@@ -19,7 +19,13 @@ stages:
               targetType: 'inline'
               script: |
                 # Write your PowerShell commands here.
-                Invoke-WebRequest -Uri "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_amd64.zip" -OutFile "C:\"
-                Write-Host "Hello World"
+                $Url = https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip
+                $DownloadZipFile = "C:\prueba\" + $(Split-Path -Path $Url -Leaf)
+                $ExtractPath = "C:\prueba\"
+                Invoke-WebRequest -Uri $Url -OutFile $DownloadZipFile
+                $ExtractShell = New-Object -ComObject Shell.Application 
+                $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
+                $ExtractShell.NameSpace($ExtractPath).CopyHere($ExtractFiles) 
+                Start-Process $ExtractPath
 
-      
+                      
