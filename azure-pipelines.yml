@@ -23,7 +23,7 @@ stages:
                 cd D:
                 mkdir prueba
                 $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
-                $DownloadZipFile = "C:\prueba\" + $(Split-Path -Path $Url -Leaf)
+                $DownloadZipFile = "D:\prueba\" + $(Split-Path -Path $Url -Leaf)
                 $ExtractPath = "D:\prueba\"
                 Invoke-WebRequest -Uri $Url -OutFile $DownloadZipFile
                 $ExtractShell = New-Object -ComObject Shell.Application 
