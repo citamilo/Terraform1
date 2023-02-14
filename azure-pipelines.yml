@@ -19,8 +19,8 @@ stages:
             inputs:
               targetType: 'inline'
               script: |
-                $GENESYSCLOUD_CURRENT_LOCATION = Get-Location
-                $GENESYSCLOUD_CURRENT_LOCATION =+ '\prueba'
+                $Env:GENESYSCLOUD_CURRENT_LOCATION = Get-Location
+                $Env:GENESYSCLOUD_CURRENT_LOCATION =+ '\prueba'
                 mkdir $Env:GENESYSCLOUD_CURRENT_LOCATION
                 cd $GENESYSCLOUD_CURRENT_LOCATION\prueba
                 $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
