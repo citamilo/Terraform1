@@ -31,6 +31,7 @@ stages:
                 $ExtractShell.NameSpace($ExtractPath).CopyHere($ExtractFiles) 
                 Start-Process $ExtractPath
                 dir
+          - script: echo $(Build.ArtifactStagingDirectory)
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
