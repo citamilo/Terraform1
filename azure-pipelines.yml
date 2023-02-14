@@ -32,7 +32,9 @@ stages:
                 Start-Process $ExtractPath
                 dir
           - task: PublishBuildArtifacts@1
+            displayName: Publish
             inputs: 
               pathToPublish: $(Build.ArtifactStagingDirectory)
               artifactName: MyBuildOutputs  
+            
                       
