@@ -30,3 +30,8 @@ stages:
                 $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
                 $ExtractShell.NameSpace($ExtractPath).CopyHere($ExtractFiles) 
                 Start-Process $ExtractPath
+          - task: PublishBuildArtifacts@1
+            inputs:
+              pathToPublish: $GENESYSCLOUD_CURRENT_LOCATION\prueba
+              artifactName: MyBuildOutputs  
+                      
