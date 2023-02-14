@@ -32,6 +32,6 @@ stages:
             
           - task: PublishBuildArtifacts@1
             inputs:
-              pathToPublish: 'C:\prueba\'
+              pathToPublish: 'D:\prueba\'
               artifactName: MyBuildOutputs  
                       
