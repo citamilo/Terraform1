@@ -32,6 +32,8 @@ stages:
                 Start-Process $ExtractPath
                 dir
           - script: echo $(Build.ArtifactStagingDirectory)
+                    echo $(buildConfiguration)
+                    echo $(Agent.BuildDirectory)
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
