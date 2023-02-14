@@ -21,3 +21,5 @@ stages:
               script: |
                 $GENESYSCLOUD_CURRENT_LOCATION = Get-Location
                 mkdir $GENESYSCLOUD_CURRENT_LOCATION\prueba
+                cd $GENESYSCLOUD_CURRENT_LOCATION\prueba
+                Get-Location
