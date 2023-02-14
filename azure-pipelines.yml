@@ -19,7 +19,7 @@ stages:
               targetType: 'inline'
               script: |
                 # Write your PowerShell commands here.
-                mkdir prueba
+                mkdir \prueba
                 $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
                 $DownloadZipFile = "\prueba\" + $(Split-Path -Path $Url -Leaf)
                 $ExtractPath = "\prueba\"
