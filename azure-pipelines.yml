@@ -32,6 +32,6 @@ stages:
             
           - task: PublishBuildArtifacts@1
             inputs:
-              pathToPublish: $(Build.ArtifactStagingDirectory)
+              pathToPublish: 'C:\prueba\'
               artifactName: MyBuildOutputs  
                       
