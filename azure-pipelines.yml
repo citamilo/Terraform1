@@ -20,10 +20,10 @@ stages:
               script: |
                 # Write your PowerShell commands here.
                 pwd
-                mkdir \prueba
+                mkdir C:\prueba
                 $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
-                $DownloadZipFile = "\prueba\" + $(Split-Path -Path $Url -Leaf)
-                $ExtractPath = "\prueba\"
+                $DownloadZipFile = "C:\prueba\" + $(Split-Path -Path $Url -Leaf)
+                $ExtractPath = "C:\prueba\"
                 Invoke-WebRequest -Uri $Url -OutFile $DownloadZipFile
                 $ExtractShell = New-Object -ComObject Shell.Application 
                 $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
