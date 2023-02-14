@@ -22,4 +22,11 @@ stages:
                 $GENESYSCLOUD_CURRENT_LOCATION = Get-Location
                 mkdir $GENESYSCLOUD_CURRENT_LOCATION\prueba
                 cd $GENESYSCLOUD_CURRENT_LOCATION\prueba
-                Get-Location
+                $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
+                $DownloadZipFile = "$GENESYSCLOUD_CURRENT_LOCATION\prueba" + $(Split-Path -Path $Url -Leaf)
+                $ExtractPath = "$GENESYSCLOUD_CURRENT_LOCATION\prueba"
+                Invoke-WebRequest -Uri $Url -OutFile $DownloadZipFile
+                $ExtractShell = New-Object -ComObject Shell.Application 
+                $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
+                $ExtractShell.NameSpace($ExtractPath).CopyHere($ExtractFiles) 
+                Start-Process $ExtractPath
