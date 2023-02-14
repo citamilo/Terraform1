@@ -20,7 +20,7 @@ stages:
               targetType: 'inline'
               script: |
                 $GENESYSCLOUD_CURRENT_LOCATION = Get-Location
-                mkdir $GENESYSCLOUD_CURRENT_LOCATION\prueba
+                $FILE_DIRECTORY = mkdir $GENESYSCLOUD_CURRENT_LOCATION\prueba
                 cd $GENESYSCLOUD_CURRENT_LOCATION\prueba
                 $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
                 $DownloadZipFile = "$GENESYSCLOUD_CURRENT_LOCATION\prueba" + $(Split-Path -Path $Url -Leaf)
@@ -32,6 +32,6 @@ stages:
                 Start-Process $ExtractPath
           - task: PublishBuildArtifacts@1
             inputs:
-              pathToPublish: $GENESYSCLOUD_CURRENT_LOCATION\prueba
+              pathToPublish: $FILE_DIRECTORY
               artifactName: MyBuildOutputs  
                       
