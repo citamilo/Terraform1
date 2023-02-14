@@ -39,7 +39,7 @@ stages:
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
-              pathToPublish: $(Build.ArtifactStagingDirectory)
+              pathToPublish: $(Build.SourcesDirectory)
               artifactName: MyBuildOutputs  
             
                       
