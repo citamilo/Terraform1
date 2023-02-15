@@ -26,7 +26,7 @@ stages:
                 $DownloadZipFile = $Env:GENESYSCLOUD_CURRENT_LOCATION + $(Split-Path -Path $Url -Leaf)
                 $ExtractPath = $Env:GENESYSCLOUD_CURRENT_LOCATION
                 Invoke-WebRequest -Uri $Url -OutFile $DownloadZipFile
-                cd $GENESYSCLOUD_CURRENT_LOCATION
+                cd $Env:GENESYSCLOUD_CURRENT_LOCATION
                 $ExtractShell = New-Object -ComObject Shell.Application 
                 $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
                 $ExtractShell.NameSpace($ExtractPath).CopyHere($ExtractFiles) 
