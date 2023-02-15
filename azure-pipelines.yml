@@ -20,14 +20,9 @@ stages:
               targetType: 'inline'
               script: |
                 $Env:GENESYSCLOUD_CURRENT_LOCATION = Get-Location
-                $Env:GENESYSCLOUD_CURRENT_LOCATION += '\prueba'
-                mkdir $Env:GENESYSCLOUD_CURRENT_LOCATION
                 $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
                 $DownloadZipFile = $Env:GENESYSCLOUD_CURRENT_LOCATION + $(Split-Path -Path $Url -Leaf)
                 $ExtractPath = $Env:GENESYSCLOUD_CURRENT_LOCATION
-                echo $GENESYSCLOUD_CURRENT_LOCATION
-                echo $ExtractPath
-                echo $DownloadZipFile
                 Invoke-WebRequest -Uri $Url -OutFile $DownloadZipFile
                 cd $Env:GENESYSCLOUD_CURRENT_LOCATION
                 
