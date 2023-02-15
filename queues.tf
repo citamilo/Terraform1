@@ -1,4 +1,4 @@
-resource "genesyscloud_routing_queue" "IRA3" {
+resource "genesyscloud_routing_queue" "IRA" {
   name                              = "IRA"
   description                       = "Individual Retirement Accounts team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
@@ -15,7 +15,7 @@ resource "genesyscloud_routing_queue" "IRA3" {
   }
 }
 
-resource "genesyscloud_routing_queue" "T401K3" {
+resource "genesyscloud_routing_queue" "T401K" {
   name                              = "401K"
   description                       = "401K team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
@@ -50,7 +50,7 @@ resource "genesyscloud_routing_queue" "Retirement" {
 }
 
 resource "genesyscloud_routing_queue" "Brokerage" {
-  name                              = "Brokerage1"
+  name                              = "Brokerage"
   description                       = "Brokerage team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
