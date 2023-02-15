@@ -10,7 +10,7 @@ resource "genesyscloud_routing_queue" "IRA" {
   calling_party_name                = "Example Inc."
 
   members {
-    user_id  = genesyscloud_user.robert_smith.id
+    user_id  = genesyscloud_user.daniel.sanchez.id
     ring_num = 1
   }
 }
