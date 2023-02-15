@@ -9,10 +9,10 @@ resource "genesyscloud_routing_queue" "IRA" {
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
 
-  members {
-    user_id  = genesyscloud_user.daniel.sanchez.id
-    ring_num = 1
-  }
+  #members {
+  #  user_id  = genesyscloud_user.daniel.sanchez.id
+  #  ring_num = 1
+  #}
 }
 
 resource "genesyscloud_routing_queue" "T401K" {
