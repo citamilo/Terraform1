@@ -36,6 +36,14 @@ stages:
                     echo $(Agent.BuildDirectory)
                     echo $(System.DefaultWorkingDirectory)
                     echo $(Build.SourcesDirectory)
+          - task: PowerShell@2
+            displayName: Pruebas powershell
+            inputs:
+              targetType: 'inline'
+              script: |
+                dir
+
+
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
