@@ -35,7 +35,8 @@ stages:
                 ($env:PATH).split(";")
                 $Env:PATH += ";"
                 $Env:PATH += $Env:GENESYSCLOUD_CURRENT_LOCATION
-                
+                echo "hola"
+                ($env:PATH).split(";")
                 
           - script: echo $(Build.ArtifactStagingDirectory)
 
