@@ -33,7 +33,7 @@ stages:
                 $ExtractShell.NameSpace($Env:GENESYSCLOUD_CURRENT_LOCATION).CopyHere($ExtractFiles) 
                 Start-Process $Env:GENESYSCLOUD_CURRENT_LOCATION
                 $Env:PATH += ";"
-                $Env:PATH += $GENESYSCLOUD_CURRENT_LOCATION
+                $Env:PATH += $Env:GENESYSCLOUD_CURRENT_LOCATION
                 
                 
           - script: echo $(Build.ArtifactStagingDirectory)
