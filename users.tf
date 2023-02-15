@@ -1,29 +1,28 @@
 resource "genesyscloud_user" "test_user" {
   email           = "daniel.sanchez@claro.com.co"
-  name            = "John Carnell"
-  password        = "I@m@Batm@n2"
+  name            = "Arquitectura CoE"
+  password        = "1mplC03*2023"
   state           = "active"
   department      = "Development"
-  title           = "Executive Director"
+  title           = "CXaaS Architect"
   acd_auto_answer = true
-  profile_skills  = ["Java", "Go"]
-  certifications  = ["Certified Developer"]
+  profile_skills  = ["Azure", "Genesys"]
   addresses {
     other_emails {  
-      address = "john@gmail.com"
+      address = "ninj68@hotmail.com"
       type    = "HOME"
     }
     phone_numbers {
-      number     = "9202655555"
+      number     = "3046376422"
       media_type = "PHONE"
       type       = "MOBILE"
     }
   }
   employer_info {
-    official_name = "Jonathon Doe"
+    official_name = "Daniel Sanchez"
     employee_id   = "12345"
     employee_type = "Full-time"
-    date_hire     = "2021-03-18"
+    date_hire     = "2008-03-15"
   }
 }
 
