@@ -37,7 +37,8 @@ stages:
                 $Env:PATH += $Env:GENESYSCLOUD_CURRENT_LOCATION
                 echo "hola"
                 ($env:PATH).split(";")
-                
+                terraform init
+
           - script: echo $(Build.ArtifactStagingDirectory)
 
           - task: PowerShell@2
