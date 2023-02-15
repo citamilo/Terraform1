@@ -1,5 +1,5 @@
 resource "genesyscloud_user" "test_user" {
-  email           = "john.carnell@example.com"
+  email           = "daniel.sanchez@claro.com.co"
   name            = "John Carnell"
   password        = "I@m@Batm@n2"
   state           = "active"
