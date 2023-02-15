@@ -33,7 +33,7 @@ stages:
                 
                 $ExtractShell = New-Object -ComObject Shell.Application 
                 $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
-                $ExtractShell.NameSpace($GENESYSCLOUD_CURRENT_LOCATION).CopyHere($ExtractFiles) 
+                $ExtractShell.NameSpace($Env:GENESYSCLOUD_CURRENT_LOCATION).CopyHere($ExtractFiles) 
                 Start-Process $GENESYSCLOUD_CURRENT_LOCATION
                 
           - script: echo $(Build.ArtifactStagingDirectory)
