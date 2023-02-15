@@ -34,7 +34,7 @@ stages:
                 Start-Process $Env:GENESYSCLOUD_CURRENT_LOCATION
                 $Env:PATH += ";"
                 $Env:PATH += $GENESYSCLOUD_CURRENT_LOCATION
-                terraform init
+                
                 
           - script: echo $(Build.ArtifactStagingDirectory)
 
