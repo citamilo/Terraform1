@@ -24,6 +24,11 @@ stages:
               secureVarsFile: '.env'
               commandOptions: '-out main.tfplan'
               allowTelemetryCollection: true
+          - task: TerraformCLI@0
+            inputs:
+              command: 'apply'
+              secureVarsFile: '.env'
+              allowTelemetryCollection: true
 
           - task: PublishBuildArtifacts@1
             displayName: Publish
