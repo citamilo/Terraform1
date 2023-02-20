@@ -17,7 +17,7 @@ stages:
           - task: TerraformInstaller@0
             inputs:
               terraformVersion: 'latest'
-              downloadUrl: 'https://apt.releases.hashicorp.com/gpg'
+              downloadUrl: 'https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo'
 
           
           - task: PublishBuildArtifacts@1
