@@ -5,6 +5,9 @@ terraform {
       source  = "mypurecloud/genesyscloud"
     }
   }
+  backend "local" {
+    path = "/gcti/terraform/tfstate/terraform.tfstate"
+  }
 }
 
 provider "genesyscloud"{}
