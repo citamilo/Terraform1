@@ -66,9 +66,9 @@ resource "genesyscloud_routing_queue" "Brokerage" {
   # }
 }
 
-resource "genesyscloud_routing_queue" "Brokerage2" {
-  name                              = "Brokerage2"
-  description                       = "Brokerage team2"
+resource "genesyscloud_routing_queue" "Brokerage5" {
+  name                              = "Brokerage5"
+  description                       = "Brokerage team5"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
   skill_evaluation_method           = "BEST"
