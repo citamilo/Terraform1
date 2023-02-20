@@ -30,6 +30,11 @@ stages:
               secureVarsFile: '.env'
               allowTelemetryCollection: true
 
+          - task: CopyFiles@2
+            inputs:
+              SourceFolder: '$(Build.ArtifactStagingDirectory)\genesysclou\terraform.tfstated'
+              Contents: '**'
+              TargetFolder: '$(Build.Artifac\tStagingDirectory)\genesysclou\tfstate'
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
