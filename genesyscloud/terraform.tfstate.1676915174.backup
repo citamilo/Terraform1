@@ -1,0 +1,1405 @@
+{
+  "version": 4,
+  "terraform_version": "1.3.7",
+  "serial": 0,
+  "lineage": "c9399ece-225f-e12d-13cc-e5dcc82beaeb",
+  "outputs": {},
+  "resources": [
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "agentenomina1_genesys_com_2549005745",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1824912303.extension": "1111",
+            "addresses.0.phone_numbers.1824912303.media_type": "PHONE",
+            "addresses.0.phone_numbers.1824912303.number": "1111",
+            "addresses.0.phone_numbers.1824912303.type": "WORK",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "9c293365-20d9-4589-b2c9-818e40c970d3",
+            "email": "agentenomina1@genesys.com",
+            "employer_info.#": "0",
+            "id": "c534f5a3-7e4e-4238-a5b1-2540c18cc970",
+            "locations.#": "0",
+            "manager": "",
+            "name": "AuxiliarNomina1",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "agentenomina2_genesys_com_1647882218",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3530504786.extension": "1112",
+            "addresses.0.phone_numbers.3530504786.media_type": "PHONE",
+            "addresses.0.phone_numbers.3530504786.number": "1112",
+            "addresses.0.phone_numbers.3530504786.type": "WORK",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "9c293365-20d9-4589-b2c9-818e40c970d3",
+            "email": "agentenomina2@genesys.com",
+            "employer_info.#": "0",
+            "id": "ae50f90c-f0f3-4f8a-b2de-05a3abf42a1f",
+            "locations.#": "0",
+            "manager": "",
+            "name": "AuxiliarNomina2",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "agentenomina3_genesys_com_1547352243",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.249135302.extension": "1113",
+            "addresses.0.phone_numbers.249135302.media_type": "PHONE",
+            "addresses.0.phone_numbers.249135302.number": "1113",
+            "addresses.0.phone_numbers.249135302.type": "WORK",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "9c293365-20d9-4589-b2c9-818e40c970d3",
+            "email": "agentenomina3@genesys.com",
+            "employer_info.#": "0",
+            "id": "043fc121-51d8-4dfd-988b-700603963d74",
+            "locations.#": "0",
+            "manager": "",
+            "name": "AuxiliarNomina3",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "andres_becerrad_claro_com_co_3691556022",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.2042473974.extension": "",
+            "addresses.0.phone_numbers.2042473974.media_type": "PHONE",
+            "addresses.0.phone_numbers.2042473974.number": "+573133206850",
+            "addresses.0.phone_numbers.2042473974.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "andres.becerrad@claro.com.co",
+            "employer_info.#": "0",
+            "id": "86bbee4b-806e-427a-a43c-8ab94ffa6799",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Andres Mauricio Becerra Diaz",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "brayam_moya_esmtconsulting_com_1158104707",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1961703546.extension": "",
+            "addresses.0.phone_numbers.1961703546.media_type": "PHONE",
+            "addresses.0.phone_numbers.1961703546.number": "+573014866991",
+            "addresses.0.phone_numbers.1961703546.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "brayam.moya@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "f67f3dc6-c767-45d2-b547-7a6215858268",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Brayam Sthik Moya Rusinque",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "carmen_olivares_esmtconsulting_com_1095462612",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.717022881.extension": "",
+            "addresses.0.phone_numbers.717022881.media_type": "PHONE",
+            "addresses.0.phone_numbers.717022881.number": "+573153164878",
+            "addresses.0.phone_numbers.717022881.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "carmen.olivares@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "c6d99963-a51c-437c-9739-6654c09ad892",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Carmen Elena Olivares",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "daniel_sanchez_claro_com_co_3073726730",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "true",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "daniel.sanchez@claro.com.co",
+            "employer_info.#": "0",
+            "id": "195d9a83-cf23-4e5f-84b3-e8c725975cb3",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Arquitectura COE",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "diego_parra_claro_com_co_1072011747",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "diego.parra@claro.com.co",
+            "employer_info.#": "0",
+            "id": "ec3e81b1-778d-4427-9292-e71559982c3f",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Diego Parra",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "diomedes_rodriguez_informationsys_com_1371240484",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3682006339.extension": "",
+            "addresses.0.phone_numbers.3682006339.media_type": "PHONE",
+            "addresses.0.phone_numbers.3682006339.number": "+573193307287",
+            "addresses.0.phone_numbers.3682006339.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "diomedes.rodriguez@informationsys.com",
+            "employer_info.#": "0",
+            "id": "a20994b6-4482-469d-877e-9f23545ec9ed",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Diomedes Humberto Alsina Rodriguez",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "eduardo_yanez_esmtconsulting_com_3044005432",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1014048303.extension": "584123733043",
+            "addresses.0.phone_numbers.1014048303.media_type": "PHONE",
+            "addresses.0.phone_numbers.1014048303.number": "",
+            "addresses.0.phone_numbers.1014048303.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "eduardo.yanez@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "30bbd041-8752-481a-91d1-23339743e1b7",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Eduardo Jose Yanez Acero",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "eleazar_medina_esmtconsulting_com_2919248415",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3534990964.extension": "17867866216",
+            "addresses.0.phone_numbers.3534990964.media_type": "PHONE",
+            "addresses.0.phone_numbers.3534990964.number": "",
+            "addresses.0.phone_numbers.3534990964.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "eleazar.medina@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "79306eef-6a19-4d44-9f36-0ac53240c20c",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Eleazar David Medina Leal",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "federico_molina_informationsys_com_613495310",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3851910891.extension": "",
+            "addresses.0.phone_numbers.3851910891.media_type": "PHONE",
+            "addresses.0.phone_numbers.3851910891.number": "+573166906584",
+            "addresses.0.phone_numbers.3851910891.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "federico.molina@informationsys.com",
+            "employer_info.#": "0",
+            "id": "8edf00a4-c7e6-4db6-b37d-47ef8e7bf85f",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Federico Molina Molina",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "gilberto_martinez_conceptomovil_com_799100492",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "282d0547-451e-4865-920c-2803bab85a6e",
+            "email": "gilberto.martinez@conceptomovil.com",
+            "employer_info.#": "0",
+            "id": "dc1bf2ce-265e-4f10-a96f-96c6c1e31583",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Gilberto Martinez",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "integration-generic-18dd2fc0-4a63-11ed-ada2-8d4f6d41e767_webhook_com_1899054517",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "",
+            "division_id": "46802a0a-5d69-4c1b-816b-2c1960d23695",
+            "email": "integration-generic-18dd2fc0-4a63-11ed-ada2-8d4f6d41e767@webhook.com",
+            "employer_info.#": "0",
+            "id": "6c054789-314f-49c6-854d-fc864bd98dbf",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Generic",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "italo_pedrosa_esmtconsulting_com_1772438786",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1968691793.extension": "",
+            "addresses.0.phone_numbers.1968691793.media_type": "PHONE",
+            "addresses.0.phone_numbers.1968691793.number": "+573209357750",
+            "addresses.0.phone_numbers.1968691793.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "italo.pedrosa@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "af223ee1-ed19-43ad-bb45-23ca3893ef09",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Italo Javier Pedrosa Ardila",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "john_carnell_example_com_3230966566",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "true",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "1",
+            "addresses.0.other_emails.885579399.address": "john@gmail.com",
+            "addresses.0.other_emails.885579399.type": "HOME",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1353900783.extension": "9202655555",
+            "addresses.0.phone_numbers.1353900783.media_type": "PHONE",
+            "addresses.0.phone_numbers.1353900783.number": "",
+            "addresses.0.phone_numbers.1353900783.type": "MOBILE",
+            "certifications.#": "1",
+            "certifications.3699525810": "Certified Developer",
+            "department": "Development",
+            "division_id": "46802a0a-5d69-4c1b-816b-2c1960d23695",
+            "email": "john.carnell@example.com",
+            "employer_info.#": "1",
+            "employer_info.0.date_hire": "2021-03-18",
+            "employer_info.0.employee_id": "12345",
+            "employer_info.0.employee_type": "Full-time",
+            "employer_info.0.official_name": "Jonathon Doe",
+            "id": "f220c77c-d7cd-4d6a-9649-53f71e5002ca",
+            "locations.#": "0",
+            "manager": "",
+            "name": "John Carnell",
+            "profile_skills.#": "2",
+            "profile_skills.3395977395": "Java",
+            "profile_skills.3657096219": "Go",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Executive Director"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "jonathan_navarrop_claro_com_co_2676266381",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1147652705.extension": "",
+            "addresses.0.phone_numbers.1147652705.media_type": "PHONE",
+            "addresses.0.phone_numbers.1147652705.number": "+573123760260",
+            "addresses.0.phone_numbers.1147652705.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "jonathan.navarrop@claro.com.co",
+            "employer_info.#": "0",
+            "id": "390a05d9-f8df-450a-a049-b267f74226a5",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Jonathan Stiven Navarro Pena",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "jonnh_sotaquira_claro_com_co_447477795",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.803035613.extension": "",
+            "addresses.0.phone_numbers.803035613.media_type": "PHONE",
+            "addresses.0.phone_numbers.803035613.number": "+573203708407",
+            "addresses.0.phone_numbers.803035613.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "jonnh.sotaquira@claro.com.co",
+            "employer_info.#": "0",
+            "id": "3f49581f-83d1-456e-965c-7fef2509676b",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Jonnh Fredy Sotaquira Acosta",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "jose_diaz_esmtconsulting_com_1544184020",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3248415341.extension": "",
+            "addresses.0.phone_numbers.3248415341.media_type": "PHONE",
+            "addresses.0.phone_numbers.3248415341.number": "+573016377645",
+            "addresses.0.phone_numbers.3248415341.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "jose.diaz@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "cd2d6f78-f9ed-4e67-be3f-869279abf0ae",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Jose Antonio Díaz Villafane",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "jose_echeverria_esmtconsulting_com_1613354896",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.501915542.extension": "",
+            "addresses.0.phone_numbers.501915542.media_type": "PHONE",
+            "addresses.0.phone_numbers.501915542.number": "+573044469345",
+            "addresses.0.phone_numbers.501915542.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "jose.echeverria@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "f9b0b2a3-3623-4dc3-8450-0ea90730a154",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Jose Vicente Echeverría Quiroga",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "jose_gomez_esmtconsulting_com_1362458970",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1897389101.extension": "",
+            "addresses.0.phone_numbers.1897389101.media_type": "PHONE",
+            "addresses.0.phone_numbers.1897389101.number": "+573013111383",
+            "addresses.0.phone_numbers.1897389101.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "jose.gomez@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "fb39e0fd-1742-4a05-8d7c-6bb873c5a67a",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Jose David Gómez La Cruz",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "juan_duranr_claro_com_co_1511482789",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.803035613.extension": "",
+            "addresses.0.phone_numbers.803035613.media_type": "PHONE",
+            "addresses.0.phone_numbers.803035613.number": "+573203708407",
+            "addresses.0.phone_numbers.803035613.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "juan.duranr@claro.com.co",
+            "employer_info.#": "0",
+            "id": "9d6669b7-f92b-49e5-999a-9c003506f13c",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Juan David Duran Rodriguez",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "juan_montoya_informationsys_com_3252750654",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.614220805.extension": "",
+            "addresses.0.phone_numbers.614220805.media_type": "PHONE",
+            "addresses.0.phone_numbers.614220805.number": "+573042921947",
+            "addresses.0.phone_numbers.614220805.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "juan.montoya@informationsys.com",
+            "employer_info.#": "0",
+            "id": "a8be7d47-2e67-4063-ad7c-08615a58bc87",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Juan Camilo Montoya Mejia",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "julian_molinaz_claro_com_co_239827798",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3651992159.extension": "",
+            "addresses.0.phone_numbers.3651992159.media_type": "PHONE",
+            "addresses.0.phone_numbers.3651992159.number": "+573102884955",
+            "addresses.0.phone_numbers.3651992159.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "julian.molinaz@claro.com.co",
+            "employer_info.#": "0",
+            "id": "0986d9a9-e9ee-4904-a2ec-b141a31454d8",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Julian Andres Molina Zapata",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "julio_pousada_esmtconsulting_com_1825397369",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3812907026.extension": "584142389304",
+            "addresses.0.phone_numbers.3812907026.media_type": "PHONE",
+            "addresses.0.phone_numbers.3812907026.number": "",
+            "addresses.0.phone_numbers.3812907026.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "julio.pousada@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "108928eb-984f-44fa-8b82-29de6e2e3861",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Julio Cesar Pousada Carrillo",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "luis_bonilla_v_claro_com_co_1036651501",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "COE",
+            "division_id": "282d0547-451e-4865-920c-2803bab85a6e",
+            "email": "luis.bonilla.v@claro.com.co",
+            "employer_info.#": "0",
+            "id": "2a3f362f-e3e0-4c08-a7c7-a4844dc37509",
+            "locations.#": "1",
+            "locations.3479113558.location_id": "86415db4-eefd-4471-af01-7ff8b37e1c0b",
+            "locations.3479113558.notes": "",
+            "manager": "",
+            "name": "Implementacion",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": ""
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "maria_palacios_informationsys_com_4179155117",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3989395358.extension": "",
+            "addresses.0.phone_numbers.3989395358.media_type": "PHONE",
+            "addresses.0.phone_numbers.3989395358.number": "+573102384636",
+            "addresses.0.phone_numbers.3989395358.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "maria.palacios@informationsys.com",
+            "employer_info.#": "0",
+            "id": "5f9e818f-abe5-471f-aa1f-6a73b62123aa",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Maria Angelica Palacios Cardenas",
+            "profile_skills.#": "0",
+            "routing_languages.#": "4",
+            "routing_languages.1105924382.language_id": "eba55565-4ef4-4ab8-99f8-10d87525feac",
+            "routing_languages.1105924382.proficiency": "5",
+            "routing_languages.3558584844.language_id": "4306e17f-0865-44bb-9b01-24995a2bbdbb",
+            "routing_languages.3558584844.proficiency": "5",
+            "routing_languages.3654779969.language_id": "64ef2044-281c-4a3e-af06-1feffe2ccf75",
+            "routing_languages.3654779969.proficiency": "5",
+            "routing_languages.993788249.language_id": "cc5f6c3c-c0dd-4052-adae-ec8a0530cebe",
+            "routing_languages.993788249.proficiency": "5",
+            "routing_skills.#": "1",
+            "routing_skills.674816161.proficiency": "5",
+            "routing_skills.674816161.skill_id": "012c8db9-0a3d-4548-ae6b-278e13424f94",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "maria_trovato_esmtconsulting_com_3958966960",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.2122706935.extension": "5215544215538",
+            "addresses.0.phone_numbers.2122706935.media_type": "PHONE",
+            "addresses.0.phone_numbers.2122706935.number": "",
+            "addresses.0.phone_numbers.2122706935.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "maria.trovato@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "2c30107e-4f10-4724-a078-762fae4f1b66",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Maria Josefina Trovato",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "nestor_aguasg_claro_com_co_2629282648",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3680379336.extension": "",
+            "addresses.0.phone_numbers.3680379336.media_type": "PHONE",
+            "addresses.0.phone_numbers.3680379336.number": "+573116236267",
+            "addresses.0.phone_numbers.3680379336.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "nestor.aguasg@claro.com.co",
+            "employer_info.#": "0",
+            "id": "04dbf071-e52c-4a90-a068-1673675671a7",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Nestor Fredy Aguas Garcia",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "oscar_ortegam_claro_com_co_2811597836",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.803035613.extension": "",
+            "addresses.0.phone_numbers.803035613.media_type": "PHONE",
+            "addresses.0.phone_numbers.803035613.number": "+573203708407",
+            "addresses.0.phone_numbers.803035613.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "oscar.ortegam@claro.com.co",
+            "employer_info.#": "0",
+            "id": "f34a7ef3-085f-4c14-ae4f-8d0bfebb00bc",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Oscar Hernando Ortega Martinez",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "ramon_puentesv_claro_com_co_2240168938",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.953137702.extension": "",
+            "addresses.0.phone_numbers.953137702.media_type": "PHONE",
+            "addresses.0.phone_numbers.953137702.number": "+573155507700",
+            "addresses.0.phone_numbers.953137702.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "ramon.puentesv@claro.com.co",
+            "employer_info.#": "0",
+            "id": "fa9dacef-ae8a-4f0e-8166-48d29e0d9561",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Ramon Alejandro Puentes Vargas",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "rita_diazl_claro_com_co_557447073",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.4037925413.extension": "",
+            "addresses.0.phone_numbers.4037925413.media_type": "PHONE",
+            "addresses.0.phone_numbers.4037925413.number": "+573204252927",
+            "addresses.0.phone_numbers.4037925413.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "rita.diazl@claro.com.co",
+            "employer_info.#": "0",
+            "id": "0ee95b5d-b265-49d9-ba5c-4798cb614975",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Rita Margarita Diaz Lozano",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "roberto_rahamut_informationsys_com_2826900998",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.3990339249.extension": "",
+            "addresses.0.phone_numbers.3990339249.media_type": "PHONE",
+            "addresses.0.phone_numbers.3990339249.number": "+573012561737",
+            "addresses.0.phone_numbers.3990339249.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "roberto.rahamut@informationsys.com",
+            "employer_info.#": "0",
+            "id": "cdc2dd50-89ef-4097-843b-54178288d9b4",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Roberto Carlos Rahamut Suteu",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "ruben_marin_informationsys_com_2243734154",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.77729220.extension": "",
+            "addresses.0.phone_numbers.77729220.media_type": "PHONE",
+            "addresses.0.phone_numbers.77729220.number": "+573148400350",
+            "addresses.0.phone_numbers.77729220.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "ruben.marin@informationsys.com",
+            "employer_info.#": "0",
+            "id": "0a874289-bbd2-404f-80aa-71d2a4b89768",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Ruben Dario Marin Molina",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "sebastian_perdomo_informationsys_com_2086760387",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.1816275205.extension": "",
+            "addresses.0.phone_numbers.1816275205.media_type": "PHONE",
+            "addresses.0.phone_numbers.1816275205.number": "+573133125608",
+            "addresses.0.phone_numbers.1816275205.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "sebastian.perdomo@informationsys.com",
+            "employer_info.#": "0",
+            "id": "5ef098a7-9cea-4e52-be5f-b42bf5657b01",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Sebastian David Perdomo Ceballos",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "inactive",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "william_duranc_claro_com_co_622500141",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "0",
+            "certifications.#": "0",
+            "department": "Centro de Excelencia de Colaboración",
+            "division_id": "282d0547-451e-4865-920c-2803bab85a6e",
+            "email": "william.duranc@claro.com.co",
+            "employer_info.#": "0",
+            "id": "fd6c48f9-27c9-435a-bf39-118a2d5f476f",
+            "locations.#": "1",
+            "locations.3479113558.location_id": "86415db4-eefd-4471-af01-7ff8b37e1c0b",
+            "locations.3479113558.notes": "",
+            "manager": "",
+            "name": "Implementación 2",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "1",
+            "routing_skills.4122751443.proficiency": "5",
+            "routing_skills.4122751443.skill_id": "0f929785-71b8-4a53-b9ac-1d372832ca2b",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Usuario Original de la ORG"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "yelitza_santana_esmtconsulting_com_610982403",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.783915634.extension": "584122661984",
+            "addresses.0.phone_numbers.783915634.media_type": "PHONE",
+            "addresses.0.phone_numbers.783915634.number": "",
+            "addresses.0.phone_numbers.783915634.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "yelitza.santana@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "0638c140-522f-4edc-b498-27096a2fb009",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Yelitza Georgina Santana",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    },
+    {
+      "mode": "managed",
+      "type": "genesyscloud_user",
+      "name": "yosira_reyes_esmtconsulting_com_2684775154",
+      "provider": "provider[\"registry.terraform.io/-/genesyscloud\"]",
+      "instances": [
+        {
+          "schema_version": 1,
+          "attributes_flat": {
+            "acd_auto_answer": "false",
+            "addresses.#": "1",
+            "addresses.0.other_emails.#": "0",
+            "addresses.0.phone_numbers.#": "1",
+            "addresses.0.phone_numbers.2930331850.extension": "584120896953",
+            "addresses.0.phone_numbers.2930331850.media_type": "PHONE",
+            "addresses.0.phone_numbers.2930331850.number": "",
+            "addresses.0.phone_numbers.2930331850.type": "WORK",
+            "certifications.#": "0",
+            "department": "Administration",
+            "division_id": "d4507848-ad65-441c-afc1-20312ac1fef4",
+            "email": "yosira.reyes@esmtconsulting.com",
+            "employer_info.#": "0",
+            "id": "44a1e3aa-44d9-4eca-955a-754b8b32a874",
+            "locations.#": "0",
+            "manager": "",
+            "name": "Yosira Carolina Reyes Bello",
+            "profile_skills.#": "0",
+            "routing_languages.#": "0",
+            "routing_skills.#": "0",
+            "routing_utilization.#": "0",
+            "state": "active",
+            "title": "Administrador Plataforma"
+          },
+          "sensitive_attributes": []
+        }
+      ]
+    }
+  ],
+  "check_results": null
+}
