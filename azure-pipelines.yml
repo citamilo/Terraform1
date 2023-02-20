@@ -14,7 +14,10 @@ stages:
     jobs:
       - job: primero
         steps:     
-
+          - task: TerraformInstaller@0
+            inputs:
+              terraformVersion: 'latest'
+              downloadUrl: 'https://apt.releases.hashicorp.com/gpg'
 
           
           - task: PublishBuildArtifacts@1
