@@ -1,4 +1,4 @@
-resource "genesyscloud_routing_queue" "IRA3" {
+resource "genesyscloud_routing_queue" "IRA" {
   name                              = "IRA"
   description                       = "Individual Retirement Accounts team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
