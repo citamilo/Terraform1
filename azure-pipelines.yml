@@ -14,11 +14,6 @@ stages:
     jobs:
       - job: primero
         steps:     
-          - task: TerraformCLI@0
-            inputs:
-              command: 'init'
-              secureVarsFile: .env
-
           
           - task: PublishBuildArtifacts@1
             displayName: Publish
