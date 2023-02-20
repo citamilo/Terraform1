@@ -32,9 +32,9 @@ stages:
 
           - task: CopyFiles@2
             inputs:
-              SourceFolder: '$(Build.ArtifactStagingDirectory)\genesysclou\terraform.tfstated'
+              SourceFolder: '$(Build.ArtifactStagingDirectory)/genesyscloud/terraform.tfstate'
               Contents: '**'
-              TargetFolder: '$(Build.Artifac\tStagingDirectory)\genesysclou\tfstate'
+              TargetFolder: '$(Build.Artifac\tStagingDirectory)/tfstate'
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
