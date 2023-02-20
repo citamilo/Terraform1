@@ -13,11 +13,16 @@ stages:
   - stage: A
     jobs:
       - job: primero
-        steps:
+        steps:     
+          - task: TerraformInstaller@0
+            inputs:
+              terraformVersion: 'latest'
+              downloadUrl: 'https://apt.releases.hashicorp.com/gpg'
+
+          
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
               pathToPublish: $(Build.SourcesDirectory)
               artifactName: MyBuildOutputs  
             
-                      
