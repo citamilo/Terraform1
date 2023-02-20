@@ -7,49 +7,13 @@ trigger:
 - main
 
 pool:
-  vmImage: windows-latest
+  name: proyecto api
 
 stages:
   - stage: A
     jobs:
       - job: primero
         steps:
-          - task: PowerShell@2
-            displayName: Install Terraform
-            inputs:
-              targetType: 'inline'
-              script: |
-                $Env:GENESYSCLOUD_CURRENT_LOCATION = Get-Location
-                $Env:GENESYSCLOUD_REGION="us-east-1"
-                $Env:GENESYSCLOUD_OAUTHCLIENT_ID="a2eddb46-383e-4052-aed6-c7edc95baad9"
-                $Env:GENESYSCLOUD_OAUTHCLIENT_SECRET="WT62MbzJN_UwFv0udFjFpCvGK_ZsKXj_aZOX8PzqVl0"
-                $Url = "https://releases.hashicorp.com/terraform/1.3.8/terraform_1.3.8_windows_386.zip"
-                $DownloadZipFile = $Env:GENESYSCLOUD_CURRENT_LOCATION + $(Split-Path -Path $Url -Leaf)
-                $ExtractPath = $Env:GENESYSCLOUD_CURRENT_LOCATION
-                Invoke-WebRequest -Uri $Url -OutFile $DownloadZipFile
-                cd $Env:GENESYSCLOUD_CURRENT_LOCATION                
-                $ExtractShell = New-Object -ComObject Shell.Application 
-                $ExtractFiles = $ExtractShell.Namespace($DownloadZipFile).Items()
-                $ExtractShell.NameSpace($Env:GENESYSCLOUD_CURRENT_LOCATION).CopyHere($ExtractFiles) 
-                Start-Process $Env:GENESYSCLOUD_CURRENT_LOCATION
-                ($env:PATH).split(";")
-                $Env:PATH += ";"
-                $Env:PATH += $Env:GENESYSCLOUD_CURRENT_LOCATION
-                echo "hola"
-                ($env:PATH).split(";")
-                terraform init
-                terraform plan -out main.tfplan 
-
-          - script: echo $(Build.ArtifactStagingDirectory)
-
-          - task: PowerShell@2
-            displayName: Pruebas powershell
-            inputs:
-              targetType: 'inline'
-              script: |
-                ($env:PATH).split(";")
-
-
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
