@@ -29,5 +29,6 @@ resource "genesyscloud_user" "test_user" {
   depends_on = [
     genesyscloud_auth_division.Terraform_Pruebas
   ]
+
 }
 

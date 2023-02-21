@@ -16,5 +16,6 @@ resource "genesyscloud_routing_queue" "IRA" {
   #  user_id  = genesyscloud_user.daniel.sanchez.id
   #  ring_num = 1
   #}
+
 }
 

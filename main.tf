@@ -10,6 +10,7 @@ terraform {
     path = "/gcti/terraform/tfstate/terraform.tfstate"
   }
 
+
 }
 
 provider "genesyscloud"{}
