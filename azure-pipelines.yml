@@ -18,5 +18,4 @@ stages:
             displayName: Publish
             inputs: 
               pathToPublish: $(Build.SourcesDirectory)
-              artifactName: MyBuildOutputs  
-            
+              artifactName: MyBuildOutputs          
