@@ -9,7 +9,9 @@ resource "genesyscloud_routing_queue" "IRA" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
-
+  depends_on = [
+    genesyscloud_auth_division.terraform
+  ]
   #members {
   #  user_id  = genesyscloud_user.daniel.sanchez.id
   #  ring_num = 1
@@ -27,7 +29,9 @@ resource "genesyscloud_routing_queue" "T401K" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
-
+  depends_on = [
+    genesyscloud_auth_division.terraform
+  ]
   # members {
   #   user_id  = genesyscloud_user.test_user.id
   #   ring_num = 2
@@ -45,7 +49,9 @@ resource "genesyscloud_routing_queue" "Retirement" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
-
+  depends_on = [
+    genesyscloud_auth_division.terraform
+  ]
   # members {
   #   user_id  = genesyscloud_user.test_user.id
   #   ring_num = 2
@@ -63,7 +69,9 @@ resource "genesyscloud_routing_queue" "Brokerage" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
-
+  depends_on = [
+    genesyscloud_auth_division.terraform
+  ]
   # members {
   #   user_id  = genesyscloud_user.test_user.id
   #   ring_num = 2
@@ -81,7 +89,9 @@ resource "genesyscloud_routing_queue" "Brokerage1" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
-
+  depends_on = [
+    genesyscloud_auth_division.terraform
+  ]
   # members {
   #   user_id  = genesyscloud_user.test_user.id
   #   ring_num = 2
@@ -99,7 +109,9 @@ resource "genesyscloud_routing_queue" "Brokerage2" {
   enable_transcription              = true
   enable_manual_assignment          = true
   calling_party_name                = "Example Inc."
-
+  depends_on = [
+    genesyscloud_auth_division.terraform
+  ]
   # members {
   #   user_id  = genesyscloud_user.test_user.id
   #   ring_num = 2

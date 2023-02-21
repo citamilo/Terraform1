@@ -26,5 +26,8 @@ resource "genesyscloud_user" "test_user" {
     employee_type = "Full-time"
     date_hire     = "2021-03-18"
   }
+  depends_on = [
+    genesyscloud_auth_division.terraform
+  ]
 }
 
