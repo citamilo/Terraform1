@@ -6,9 +6,9 @@ terraform {
       version = "1.11.1"
     }
   }
-#  backend "local" {
-#    path = "/gcti/terraform/tfstate/terraform.tfstate"
-#  }
+  backend "local" {
+    path = "/gcti/terraform/tfstate/terraform.tfstate"
+  }
 
 }
 
