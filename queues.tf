@@ -1,5 +1,6 @@
 resource "genesyscloud_routing_queue" "IRA" {
   name                              = "IRA"
+  division_id                       = "genesyscloud_auth_division.Terraform_Pruebas.id"
   description                       = "Individual Retirement Accounts team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
@@ -17,6 +18,7 @@ resource "genesyscloud_routing_queue" "IRA" {
 
 resource "genesyscloud_routing_queue" "T401K" {
   name                              = "401K"
+  division_id                       = "genesyscloud_auth_division.Terraform_Pruebas.id"  
   description                       = "401K team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
@@ -34,6 +36,7 @@ resource "genesyscloud_routing_queue" "T401K" {
 
 resource "genesyscloud_routing_queue" "Retirement" {
   name                              = "Retirement"
+  division_id                       = "genesyscloud_auth_division.Terraform_Pruebas.id"  
   description                       = "Retirement team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
@@ -51,6 +54,7 @@ resource "genesyscloud_routing_queue" "Retirement" {
 
 resource "genesyscloud_routing_queue" "Brokerage" {
   name                              = "Brokerage"
+  division_id                       = "genesyscloud_auth_division.Terraform_Pruebas.id"
   description                       = "Brokerage team"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
@@ -68,6 +72,7 @@ resource "genesyscloud_routing_queue" "Brokerage" {
 
 resource "genesyscloud_routing_queue" "Brokerage1" {
   name                              = "Brokerage1"
+  division_id                       = "genesyscloud_auth_division.Terraform_Pruebas.id"  
   description                       = "Brokerage team1"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
@@ -85,6 +90,7 @@ resource "genesyscloud_routing_queue" "Brokerage1" {
 
 resource "genesyscloud_routing_queue" "Brokerage2" {
   name                              = "Brokerage2"
+  division_id                       = "genesyscloud_auth_division.Terraform_Pruebas.id"  
   description                       = "Brokerage team2"
   acw_wrapup_prompt                 = "MANDATORY_TIMEOUT"
   acw_timeout_ms                    = 300000
