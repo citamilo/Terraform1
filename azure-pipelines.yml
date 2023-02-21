@@ -14,27 +14,6 @@ stages:
     jobs:
       - job: primero
         steps:     
-          - task: TerraformCLI@0
-            inputs:
-              command: 'init'
-              allowTelemetryCollection: true
-          - task: TerraformCLI@0
-            inputs:
-              command: 'plan'
-              secureVarsFile: '.env'
-              commandOptions: '-out main.tfplan'
-              allowTelemetryCollection: true
-          - task: TerraformCLI@0
-            inputs:
-              command: 'apply'
-              secureVarsFile: '.env'
-              allowTelemetryCollection: true
-
-          - task: CopyFiles@2
-            inputs:
-              SourceFolder: '$(Build.ArtifactStagingDirectory)/genesyscloud/terraform.tfstate'
-              Contents: '**'
-              TargetFolder: '$(Build.Artifac\tStagingDirectory)/tfstate'
           - task: PublishBuildArtifacts@1
             displayName: Publish
             inputs: 
