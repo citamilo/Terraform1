@@ -9,6 +9,7 @@ resource "genesyscloud_user" "test_user" {
   acd_auto_answer = true
   profile_skills  = ["Java", "Go"]
   certifications  = ["Certified Developer"]
+  
   addresses {
     other_emails {  
       address = "john@gmail.com"
