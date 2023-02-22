@@ -17,7 +17,6 @@ resource "genesyscloud_routing_queue" "IRA" {
   #  ring_num = 1
   #}
 }
-
 resource "genesyscloud_routing_queue" "T401K" {
   name                              = "401K"
   division_id                       = genesyscloud_auth_division.Terraform_Pruebas.id

@@ -1,6 +1,6 @@
 resource "genesyscloud_user" "test_user" {
   email           = "john.carnell@example.com"
-  name            = "John  Carnell"
+  name            = "John Carnell"
   password        = "I@m@Batm@n2"
   division_id     = genesyscloud_auth_division.Terraform_Pruebas.id  
   state           = "active"
