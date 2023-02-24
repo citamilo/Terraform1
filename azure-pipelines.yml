@@ -3,20 +3,20 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-# trigger:
-# - main
+trigger:
+- main
 
-# pool:
-#   Proyecto API
+pool:
+  Proyecto API
 
-# stages:
-#   - stage: A
-#     jobs:
-#       - job: primero
-#         steps:     
-#           - task: PublishBuildArtifacts@1
-#             displayName: Publish
-#             inputs: 
-#               pathToPublish: $(Build.SourcesDirectory)
-#               artifactName: MyBuildOutputs  
+stages:
+  - stage: A
+    jobs:
+      - job: primero
+        steps:     
+          - task: PublishBuildArtifacts@1
+            displayName: Publish
+            inputs: 
+              pathToPublish: $(Build.SourcesDirectory)
+              artifactName: MyBuildOutputs  
             
