@@ -12,6 +12,7 @@ terraform {
 
 
 }
+
 provider "genesyscloud"{}
 
 resource "genesyscloud_tf_export" "export" {
