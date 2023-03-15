@@ -1,0 +1,1 @@
+En este numeral se deben documentar los lineamientos de uso de azure, lineamientos de creación de work items, lineamientos de documentación de la wiki, etc

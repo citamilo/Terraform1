@@ -1,0 +1,1137 @@
+{
+  "resource": {
+    "genesyscloud_user": {
+      "agentenomina1_genesys_com_2549005745": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "1111",
+                "media_type": "PHONE",
+                "number": "1111",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": null,
+        "division_id": null,
+        "email": "agentenomina1@genesys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "AuxiliarNomina1",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": null
+      },
+      "agentenomina2_genesys_com_1647882218": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "1112",
+                "media_type": "PHONE",
+                "number": "1112",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": null,
+        "division_id": null,
+        "email": "agentenomina2@genesys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "AuxiliarNomina2",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": null
+      },
+      "agentenomina3_genesys_com_1547352243": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "1113",
+                "media_type": "PHONE",
+                "number": "1113",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": null,
+        "division_id": null,
+        "email": "agentenomina3@genesys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "AuxiliarNomina3",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": null
+      },
+      "andres_becerrad_claro_com_co_3691556022": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573133206850",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "andres.becerrad@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Andres Mauricio Becerra Diaz",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "brayam_moya_esmtconsulting_com_1158104707": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573014866991",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "brayam.moya@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Brayam Sthik Moya Rusinque",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "carmen_olivares_esmtconsulting_com_1095462612": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573153164878",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "carmen.olivares@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Carmen Elena Olivares",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "daniel_sanchez_claro_com_co_3073726730": {
+        "acd_auto_answer": true,
+        "addresses": null,
+        "certifications": null,
+        "department": null,
+        "division_id": null,
+        "email": "daniel.sanchez@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Arquitectura COE",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": null
+      },
+      "diego_parra_claro_com_co_1072011747": {
+        "acd_auto_answer": false,
+        "addresses": null,
+        "certifications": null,
+        "department": null,
+        "division_id": null,
+        "email": "diego.parra@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Diego Parra",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": null
+      },
+      "diomedes_rodriguez_informationsys_com_1371240484": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573193307287",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "diomedes.rodriguez@informationsys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Diomedes Humberto Alsina Rodriguez",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "eduardo_yanez_esmtconsulting_com_3044005432": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "584123733043",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "eduardo.yanez@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Eduardo Jose Yanez Acero",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "eleazar_medina_esmtconsulting_com_2919248415": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "17867866216",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "eleazar.medina@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Eleazar David Medina Leal",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "federico_molina_informationsys_com_613495310": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573166906584",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "federico.molina@informationsys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Federico Molina Molina",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "gilberto_martinez_conceptomovil_com_799100492": {
+        "acd_auto_answer": false,
+        "addresses": null,
+        "certifications": null,
+        "department": null,
+        "division_id": null,
+        "email": "gilberto.martinez@conceptomovil.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Gilberto Martinez",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": null
+      },
+      "integration-generic-18dd2fc0-4a63-11ed-ada2-8d4f6d41e767_webhook_com_1899054517": {
+        "acd_auto_answer": false,
+        "addresses": null,
+        "certifications": null,
+        "department": null,
+        "division_id": null,
+        "email": "integration-generic-18dd2fc0-4a63-11ed-ada2-8d4f6d41e767@webhook.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Generic",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": null
+      },
+      "italo_pedrosa_esmtconsulting_com_1772438786": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573209357750",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "italo.pedrosa@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Italo Javier Pedrosa Ardila",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "john_carnell_example_com_3230966566": {
+        "acd_auto_answer": true,
+        "addresses": [
+          {
+            "other_emails": [
+              {
+                "address": "john@gmail.com",
+                "type": "HOME"
+              }
+            ],
+            "phone_numbers": [
+              {
+                "extension": "9202655555",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "MOBILE"
+              }
+            ]
+          }
+        ],
+        "certifications": [
+          "Certified Developer"
+        ],
+        "department": "Development",
+        "division_id": null,
+        "email": "john.carnell@example.com",
+        "employer_info": [
+          {
+            "date_hire": "2021-03-18",
+            "employee_id": "12345",
+            "employee_type": "Full-time",
+            "official_name": "Jonathon Doe"
+          }
+        ],
+        "locations": null,
+        "manager": null,
+        "name": "John Carnell",
+        "password": null,
+        "profile_skills": [
+          "Go",
+          "Java"
+        ],
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Executive Director"
+      },
+      "jonathan_navarrop_claro_com_co_2676266381": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573123760260",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "jonathan.navarrop@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Jonathan Stiven Navarro Pena",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "jonnh_sotaquira_claro_com_co_447477795": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573203708407",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "jonnh.sotaquira@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Jonnh Fredy Sotaquira Acosta",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "jose_diaz_esmtconsulting_com_1544184020": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573016377645",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "jose.diaz@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Jose Antonio Díaz Villafane",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "jose_echeverria_esmtconsulting_com_1613354896": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573044469345",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "jose.echeverria@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Jose Vicente Echeverría Quiroga",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "jose_gomez_esmtconsulting_com_1362458970": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573013111383",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "jose.gomez@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Jose David Gómez La Cruz",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "juan_duranr_claro_com_co_1511482789": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573203708407",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "juan.duranr@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Juan David Duran Rodriguez",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "juan_montoya_informationsys_com_3252750654": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573042921947",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "juan.montoya@informationsys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Juan Camilo Montoya Mejia",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "julian_molinaz_claro_com_co_239827798": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573102884955",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "julian.molinaz@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Julian Andres Molina Zapata",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "julio_pousada_esmtconsulting_com_1825397369": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "584142389304",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "julio.pousada@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Julio Cesar Pousada Carrillo",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "luis_bonilla_v_claro_com_co_1036651501": {
+        "acd_auto_answer": false,
+        "addresses": null,
+        "certifications": null,
+        "department": "COE",
+        "division_id": null,
+        "email": "luis.bonilla.v@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Implementacion",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": null
+      },
+      "maria_palacios_informationsys_com_4179155117": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573102384636",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "maria.palacios@informationsys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Maria Angelica Palacios Cardenas",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "maria_trovato_esmtconsulting_com_3958966960": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "5215544215538",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "maria.trovato@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Maria Josefina Trovato",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "nestor_aguasg_claro_com_co_2629282648": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573116236267",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "nestor.aguasg@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Nestor Fredy Aguas Garcia",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "oscar_ortegam_claro_com_co_2811597836": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573203708407",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "oscar.ortegam@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Oscar Hernando Ortega Martinez",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "ramon_puentesv_claro_com_co_2240168938": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573155507700",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "ramon.puentesv@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Ramon Alejandro Puentes Vargas",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "rita_diazl_claro_com_co_557447073": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573204252927",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "rita.diazl@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Rita Margarita Diaz Lozano",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "roberto_rahamut_informationsys_com_2826900998": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573012561737",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "roberto.rahamut@informationsys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Roberto Carlos Rahamut Suteu",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "ruben_marin_informationsys_com_2243734154": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573148400350",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "ruben.marin@informationsys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Ruben Dario Marin Molina",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "sebastian_perdomo_informationsys_com_2086760387": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": null,
+                "media_type": "PHONE",
+                "number": "+573133125608",
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "sebastian.perdomo@informationsys.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Sebastian David Perdomo Ceballos",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "inactive",
+        "title": "Administrador Plataforma"
+      },
+      "william_duranc_claro_com_co_622500141": {
+        "acd_auto_answer": false,
+        "addresses": null,
+        "certifications": null,
+        "department": "Centro de Excelencia de Colaboración",
+        "division_id": null,
+        "email": "william.duranc@claro.com.co",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Implementación 2",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Usuario Original de la ORG"
+      },
+      "yelitza_santana_esmtconsulting_com_610982403": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "584122661984",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "yelitza.santana@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Yelitza Georgina Santana",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      },
+      "yosira_reyes_esmtconsulting_com_2684775154": {
+        "acd_auto_answer": false,
+        "addresses": [
+          {
+            "other_emails": null,
+            "phone_numbers": [
+              {
+                "extension": "584120896953",
+                "media_type": "PHONE",
+                "number": null,
+                "type": "WORK"
+              }
+            ]
+          }
+        ],
+        "certifications": null,
+        "department": "Administration",
+        "division_id": null,
+        "email": "yosira.reyes@esmtconsulting.com",
+        "employer_info": null,
+        "locations": null,
+        "manager": null,
+        "name": "Yosira Carolina Reyes Bello",
+        "password": null,
+        "profile_skills": null,
+        "routing_languages": null,
+        "routing_skills": null,
+        "routing_utilization": null,
+        "state": "active",
+        "title": "Administrador Plataforma"
+      }
+    }
+  },
+  "terraform": {
+    "required_providers": {
+      "genesyscloud": {
+        "source": "registry.terraform.io/mypurecloud/genesyscloud",
+        "version": "1.11.1"
+      }
+    }
+  }
+}
