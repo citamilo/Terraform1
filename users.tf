@@ -2,7 +2,6 @@
 ########################################################################
 #                       Archivo de Creación de Usuarios                #
 ########################################################################
-
 resource "genesyscloud_user" "test_user" {
   email           = "john.carnell@example.com"
   name            = "John Carnell"
