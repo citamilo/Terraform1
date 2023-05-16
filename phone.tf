@@ -7,7 +7,7 @@ resource "genesyscloud_telephony_providers_edges_phone" "example_phone" {
   state                  = "active"
   site_id                = data.genesyscloud_telephony_providers_edges_site.site.id
   phone_base_settings_id = genesyscloud_telephony_providers_edges_phonebasesettings.PhoneBaseSettings.id
-  line_base_settings_id  = data.genesyscloud_telephony_providers_edges_linebasesettings.lineBaseSetting.id
+  # line_base_settings_id  = data.genesyscloud_telephony_providers_edges_linebasesettings.lineBaseSetting.id
 
   web_rtc_user_id        = genesyscloud_user.test_user.id
 
