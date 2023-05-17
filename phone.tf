@@ -3,7 +3,6 @@
 ########################################################################
 
 resource "genesyscloud_telephony_providers_edges_phone" "example_phone" {
-  count = 0
   name                   = "terraform_phone"
   state                  = "active"
   site_id                = data.genesyscloud_telephony_providers_edges_site.site.id
@@ -31,7 +30,6 @@ resource "genesyscloud_telephony_providers_edges_phone" "example_phone" {
 
 
 resource "genesyscloud_telephony_providers_edges_phonebasesettings" "PhoneBaseSettings" {
-  count = 0
   name               = "phone_base_settings_terraform"
   description        = "Sample description"
   phone_meta_base_id = "inin_webrtc_softphone.json"
