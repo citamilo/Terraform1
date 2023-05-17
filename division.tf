@@ -3,7 +3,7 @@
 ########################################################################
 
 resource "genesyscloud_auth_division" "Terraform_Pruebas" {
-  name        = "Terraform_Pruebas"
+  name        = "CasoDeuso_1"
   description = "Custom Division para pruebas"
 
 }
