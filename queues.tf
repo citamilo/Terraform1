@@ -3,6 +3,7 @@
 ########################################################################
 
 resource "genesyscloud_routing_queue" "terraform_queue" {
+  count = 0
   name                              = "terraform_queue"
   division_id                       = genesyscloud_auth_division.Terraform_Pruebas.id
   description                       = "Individual Retirement Accounts team"
