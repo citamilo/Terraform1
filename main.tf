@@ -1,6 +1,8 @@
-#############################################################
-#     Archivo principal de conexión terraform Genesys       #
-#############################################################
+########################################################################################################
+#     Archivo principal de conexión terraform Genesys                                                  #
+#     Este Proyecto configura un agente con su telefono en genesys cloud y asignación a una cola       #
+#                                                                                                      #
+########################################################################################################
 
 terraform {
   required_version = "~> 1.3.7"
